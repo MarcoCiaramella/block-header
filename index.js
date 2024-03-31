@@ -117,7 +117,7 @@ export class Header {
             clean_jobs: false
         };
 
-        console.assert(new Header(work, 0, 1791689120).header === "02000000b0ad0dda1d38a4ede0bd42f44dd5238d5c1d377de73eafe77e2abd16b8ac7e0143c4345eb9ad9135836f5c31b697f62429c1be08d55906ff407852adfba680a5953f1a530eb6101ba001cb6a", "Test 1: header build failed");
+        console.assert(new Header(work, 0, 2684472170).header === "02000000b0ad0dda1d38a4ede0bd42f44dd5238d5c1d377de73eafe77e2abd16b8ac7e0143c4345eb9ad9135836f5c31b697f62429c1be08d55906ff407852adfba680a5953f1a530eb6101ba001cb6a", "Test 1: header build failed");
 
         work = {
             extraNonce1: "67ffed53",
@@ -134,7 +134,7 @@ export class Header {
             clean_jobs: true
         };
 
-        console.assert(new Header(work, 0, 2863312587).header === "00000020960b97dda67bcd7f41cac011223e3149824a7055d0ea700a293cefb20a0a0000c1558f21a9c06e4864db4c09dfb99f396e6ca66732f59e8731bfd73d55fe84c124f50163f3fa0b1ecbaeaaaa", "Test 2: header build failed");
+        console.assert(new Header(work, 0, 3417221802).header === "00000020960b97dda67bcd7f41cac011223e3149824a7055d0ea700a293cefb20a0a0000c1558f21a9c06e4864db4c09dfb99f396e6ca66732f59e8731bfd73d55fe84c124f50163f3fa0b1ecbaeaaaa", "Test 2: header build failed");
     }
 }
 
