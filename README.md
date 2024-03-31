@@ -1,5 +1,5 @@
 # block-header
-A module for building block header.
+A module for building blockchain's block header.
 ## Install
 ```
 npm i @marco_ciaramella/block-header
