@@ -1,0 +1,28 @@
+{
+  "name": "@marco_ciaramella/block-header",
+  "version": "1.0.0",
+  "description": "A module for building blockchain's block header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoCiaramella/block-header.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "header",
+    "nonce"
+  ],
+  "author": "Marco Ciaramella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcoCiaramella/block-header/issues"
+  },
+  "homepage": "https://github.com/MarcoCiaramella/block-header#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
